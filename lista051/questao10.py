@@ -10,3 +10,12 @@ exibição na tela:
 OBS: Tente fazer em uma classe utilizando Math.pow() e em outra classe sem utilizar Math.pow()
 """
 
+import math
+
+cont = 0
+
+while(cont <= 15):
+    potencia = math.pow( 3,cont )
+    print(f"{math.pow(3,cont):.0f}")
+
+    cont = cont + 1

@@ -4,8 +4,6 @@ expoente qualquer (Variável e), ou seja, de be
 . (Sem usar Math.pow();
 """
 
-
-
 num = int(input("Escolha um número: "))
 
 cont = 5

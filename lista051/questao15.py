@@ -4,15 +4,15 @@ formada pela sequência 1,1,2,3,5,8,13,21,34, ... etc. Ela se caracteriza pela s
 anterior subsequente
 """
 
-num1 = 0
-num2 = 1
-num3 = 1
+n1 = 0
+n2 = 1
+rept = 1
 
-print(num2)
+print(n2)
 
-while num3 < 15:
-    num4 = num1 + num2
-    print(f"{num4}")
-    num1 = num2
-    num2 = num4
-    rept = num3 + 1
+while rept < 15:
+    n3 = n1 + n2
+    print(n3)
+    n1 = n2
+    n2 = n3
+    rept = rept + 1
